@@ -2,4 +2,39 @@
   text-align: center;
   margin: 20px
 }
+.form{
+  color: black;
+  border: solid 3px black;
+  border-radius: 20px;
+  display: flex;
+  height: 500px;
+  width: 246px;
+  padding: 20px;
+  align-content: space-evenly;
+  justify-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  justify-content: space-evenly;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  border-left-width: thick;
+}
 
+.input{
+  height: 42px;
+    border-radius: 20px;
+    font-size: large;
+    font-family: monospace;
+    padding: 2px;
+    text-align: center;
+}
+
+.btn{
+  height: 45px;
+    /* width: 125px; */
+    border-radius: 20px;
+    border-top-width: thick;
+}
